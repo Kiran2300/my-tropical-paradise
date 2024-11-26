@@ -1,0 +1,35 @@
+/* Navigation styles */
+.nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px;
+  }
+  
+  .nav-list {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
+  }
+  
+  .nav-item {
+    margin-right: 20px; /* Space between menu items */
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0; /* No margin on the last item */
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    font-size: 16px; /* Set font size */
+    padding: 8px 16px; /* Add padding inside the link */
+    transition: background-color 0.3s ease; /* Smooth background change */
+  }
+  
+  .nav-link:hover {
+    background-color: #555; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+  }
+  
